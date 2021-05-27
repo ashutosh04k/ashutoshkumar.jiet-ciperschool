@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2ND ASSIGMENT</title>
+    <style>
+        body {
+            background:url('b.jpg');
+        }
+
+        .left {
+            position: absolute;
+            margin: 20px auto;
+            display: inline-block;
+            left: 32px;
+            top: 20px;
+            font-size: 20px;
+            border: 2px solid red;
+
+        }
+
+        .right {
+            /* border: 2px solid rgb(194, 18, 156); */
+            border-radius: 30px;
+            /* background: url('b.jpg'); */
+            text-align: center;
+            display: block;
+            padding: 20px;
+            width: 50%;
+            height: 350px;
+            margin: 20px auto;
+            float: left;
+        }
+
+        .box {
+            padding: 20px;
+            color: yellow;
+            font-style: italic;
+            border-radius: 20px;
+        }
+
+        .search {
+            border-radius: 20px;
+            background-color: rgb(51, 20, 47);
+        }
+        .submit{
+            /* background-image: url('b.jpg'); */
+        }
+        .new{
+            padding: 32px;
+            font-style: oblique;
+            color: green ;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="right">
+        <div class="box">
+            YOUR NAME:- <input type="text" placeholder="Enter Your Name" class="search"><br>
+        </div>
+
+        <div class="box">
+            YOUR EMAIL:- <input type="email" placeholder="Email here" class="search"><br>
+        </div>
+        <div class="box">
+           PASSWORD:- <input type="password" placeholder="Enter Your Password" class="search" value="" id="myInput"><br>
+           <input type="checkbox" onclick="myFunction()">Show Password
+           <!-- <i class="far fa-eye" id="togglePassword"></i><br> -->
+        </div>
+        <div class="box">
+            MOBILE NUMBER:-<input type="number" placeholder="Contact Number" class="search" required><br>
+        </div>
+        <div class="box">
+            GENDER:- MALE<input type="radio" name="my gender">
+            FEMALE<input type="radio" name="my gender">
+            OTHERS<input type="radio" name="my gender">
+        </div>
+        <div class="box">
+             <input type="checkbox" name="eligibility"> I Here By Certified That Every Data Is Fair
+        </div>
+        <div class="submit">
+            <input type="submit" value="Submit ">
+            
+        </div>
+        <div class="new">
+            <a href="http://127.0.0.1:5500/3.html">SIGN IN</a>
+
+        </div>
+    
+</div>
+<script>
+    function myFunction() {
+      var x = document.getElementById("myInput");
+      if (x.type === "password") {
+        x.type = "text";
+      } else {
+        x.type = "password";
+      }
+    }
+    </script>
+</body>
+
+</html>

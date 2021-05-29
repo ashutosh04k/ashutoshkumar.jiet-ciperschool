@@ -1,0 +1,28 @@
+body{
+    background-color: rgba(20, 119, 231, 0.781);
+}
+.heading{
+    text-align: center;
+    font-size: 48px;
+    margin: 0px;
+    padding: 0px;
+    font-style: italic;
+}
+.flower{
+    /* border: 3px solid red; */
+
+}
+.picture{
+    border: 3px solid rgb(197, 25, 82);
+    height: 300px;
+    width: 500px;
+}
+table ,th,td{
+    border: 3px solid rgb(100, 17, 207);
+}
+.button{
+    text-align: center;
+}
+.button1{
+    text-align: center;
+}

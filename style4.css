@@ -1,0 +1,140 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+    background: url('aud.jpg');
+}
+.navbar{
+    /* background-color: #0a93ee ; */
+    border-radius: 20px;
+    border: block;
+}
+.navbar li{
+    /* float: left; */
+    /* border: 2px solid rgb(255, 0, 85); */
+    list-style: none;
+    margin: 43px 43px;
+    /* position: absolute;
+    left: 500px; */
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li a{
+    text-decoration: none;
+    color: rgb(17, 15, 15);
+    /* text-shadow: chartreuse 2px; */
+    padding: 5px 50px;
+    text-align: center;
+    font-size: 25px;
+    font-style: oblique;
+}
+.navbar li a:hover{
+    background-color: rgb(30, 127, 238);
+    border-radius: 40px;
+    text-decoration: underline;
+}
+
+img{
+    width: 378px;
+    border-radius: 29px;
+}
+.button{
+    float: left;
+    margin: 0px 130px;
+    padding: 20px;
+    background-color: purple;
+    border-radius: 50rem;
+    
+}
+p{
+    margin: 20px;
+    /* font-size: 15px; */
+    color: rgb(211, 224, 231);
+}
+.box1 {
+    border: 4px solid greenyellow;
+    border-radius: 30px;
+    background-color: rgba(23, 166, 223, 0.76);
+    display: inline-block;
+    position: absolute;
+    margin: auto;
+    font-style: italic;
+    width: 28%;
+    height: 65%;
+    top: 100px;
+    left: 40px;
+}
+.box2{
+    border: 4px solid greenyellow;
+    border-radius: 30px;
+    background-color: rgba(23, 166, 223, 0.76);
+    display: inline-block;
+    position: absolute;
+    margin: auto;
+    width: 28%;
+    height: 65%;
+    font-style: italic;
+    top: 100px;
+    left: 500px;
+    
+}
+.box3{
+    border: 4px solid greenyellow;
+    border-radius: 30px;
+    background-color: rgba(23, 166, 223, 0.76);
+    display: inline-block;
+    position: absolute;
+    margin: auto;
+    width: 28%;
+    height: 65%;
+    font-style: italic;
+    top: 100px;
+    left: 950px;
+    
+}
+.box4{
+    border: 4px solid greenyellow;
+    border-radius: 30px;
+    background-color: rgba(23, 166, 223, 0.76);
+    display: inline-block;
+    position: absolute;
+    margin: auto;
+    width: 28%;
+    height: 65%;
+    font-style: italic;
+    top: 600px;
+    left: 40px;
+    
+}
+.box5{
+    border: 4px solid greenyellow;
+    border-radius: 30px;
+    background-color: rgba(23, 166, 223, 0.76);
+    display: inline-block;
+    position: absolute;
+    margin: auto;
+    width: 28%;
+    height: 65%;
+    font-style: italic;
+    top: 600px;
+    left: 500px;
+    
+}
+.box6
+{
+    border: 4px solid greenyellow;
+    border-radius: 30px;
+    background-color: rgba(23, 166, 223, 0.76);
+    display: inline-block;
+    position: absolute;
+    margin: auto;
+    width: 28%;
+    height: 65%;
+    font-style: italic;
+    top: 600px;
+    left: 950px;
+    
+}
